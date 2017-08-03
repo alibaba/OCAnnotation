@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+#encoding: utf-8
+
+if $PROGRAM_NAME == __FILE__
+  lib = File.expand_path('../../lib', __FILE__)
+  $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+end
+
+require 'ocannotation'
+
+helper = SetupHelper.new()
+helper.start_setup()

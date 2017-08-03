@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+#encoding: utf-8
+
+if $PROGRAM_NAME == __FILE__
+  lib = File.expand_path('../../lib', __FILE__)
+  $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+end
+
+require 'ocannotation'
+  
+config = AFWAnnotation::GlobalConfig.new
+project_file_name = config.project_file_name
+
+AFWAnnotation::Cleaner.clean
+scanner = AFWAnnotation::AnnotationScanner.new(Dir.pwd + "/#{project_file_name}.xcodeproj")
+

@@ -1,0 +1,10 @@
+source "git@gitlab.alipay-inc.com:wealth/ios_afwealth_podspecs.git"
+source "http://gitlab.alibaba-inc.com/alipay-ios-client/specsdev.git"
+# Target name must match your project!
+
+target "AnnotationDemo” do
+
+# base SDK
+ pod ‘OCAnnotation’
+
+end

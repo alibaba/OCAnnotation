@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OCAnnotation_Example' do
+  pod 'OCAnnotation', :path => '../'
+
+  target 'OCAnnotation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

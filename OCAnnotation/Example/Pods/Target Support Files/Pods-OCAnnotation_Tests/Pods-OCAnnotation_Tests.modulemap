@@ -1,0 +1,6 @@
+framework module Pods_OCAnnotation_Tests {
+  umbrella header "Pods-OCAnnotation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

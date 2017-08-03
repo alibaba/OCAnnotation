@@ -1,0 +1,6 @@
+
+*/*.gen.h
+*/Annotation/build/
+*/Annotation/log/
+*/Annotation/gems/
+.DS_Store

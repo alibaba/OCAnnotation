@@ -1,0 +1,10 @@
+all_files Loaded from cache: 7 files 
+preprocess files : 0.000792 seconds (16:16:16.045582 - 16:16:16.046374)
+0 files scanned : 0 seconds (16:16:16.046493 - 16:16:16.046497)
+7 files are skipped (not changed since last scan)
+0 annotations found (counting modified or newly added since last build) 
+
+start generate...
+copy_target_path:../SupportingFiles/AnnotationDemoAnnotationConfig.gen.h
+OC header generated: 0.001844 seconds (16:16:16.046529 - 16:16:16.048373)
+total build time: 0.006233 seconds (16:16:16.042179 - 16:16:16.048412)

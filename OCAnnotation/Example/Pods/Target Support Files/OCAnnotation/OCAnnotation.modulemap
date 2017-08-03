@@ -1,0 +1,6 @@
+framework module OCAnnotation {
+  umbrella header "OCAnnotation-umbrella.h"
+
+  export *
+  module * { export * }
+}
