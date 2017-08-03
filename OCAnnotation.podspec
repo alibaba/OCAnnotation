@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCAnnotation'
-  s.version          = '0.0.2'
+  s.version          = '0.0.6'
   s.summary          = 'A tool enable Objective-C with the feature of annotation'
 
 # This description is used to generate tags and improve search results.
