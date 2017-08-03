@@ -212,7 +212,7 @@
                              position:(OCAAnnotationPosition)position
 {
     if (!typeString || [typeString length] == 0) {
-        return NO;
+        return nil;
     }
     
     NSMutableDictionary *typeInfos = nil;
