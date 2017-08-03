@@ -19,18 +19,17 @@ Pod::Spec.new do |s|
 
   s.description      = 'OCAnnotation is a lightweighted framework empowering the Objective-C lauguage with the ability of annotation. As in Java, annotation is a form of syntactic metadata that can be added to the source code. It provides a handy way to apply certain behaviours to related program elements, such as class, methods, etc. By embedding this feature, we could make Objective-C a more flexible language, and bring our iOS development work more convinience and possibilities.'
 
-  s.homepage         = 'www.alibaba.com
+  s.homepage         = 'https://github.com/alibaba/OCAnnotation'
 
-'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'Ant Financial Wealth Mobile Team' => 'wrshi313@gmail.com'}
-  s.source           = { :git => 'git@github.com:alibaba/OCAnnotation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/alibaba/OCAnnotation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'OCAnnotation/**/*'
+  s.source_files = 'Sources/*'
   
   # s.resource_bundles = {
   #   'OCAnnotation' => ['OCAnnotation/Assets/*.png']

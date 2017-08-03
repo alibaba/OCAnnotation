@@ -1,9 +1,0 @@
----
-"/Users/shiweiran/repo_opensource/OCAnnotation/AnnotationDemo/AnnotationDemo/ViewController.m":
-- type: remoteLog
-  position: method
-  params:
-    type: remoteLog
-    remoteLogId: userInfo013
-  className: ViewController
-  selector: 'buttonClicked:'
