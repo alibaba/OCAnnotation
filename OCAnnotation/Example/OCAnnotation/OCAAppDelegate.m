@@ -9,7 +9,7 @@
 #import "OCAAppDelegate.h"
 #import "OCADemoAnnotation.h"
 #import <OCAnnotation/OCAAnnotation.h>
-#import "AnnotationDemoAnnotationConfig.gen.h"
+#import "OCAnnotationAnnotationConfig.gen.h"
 
 @implementation OCAAppDelegate
 
@@ -18,9 +18,9 @@
     OCAAnnotationManager *annotationManager = [OCAAnnotationManager sharedManager];
     [annotationManager registerAnnotationType:@"remoteLog"
                                      position:OCAAnnotationPositionMethod
-                                        class:[DemoAnnotation class]];
+                                        class:[OCADemoAnnotation class]];
     
-    NSDictionary *configs = kAnnotationDemoAnnotationConfigs;
+    NSDictionary *configs = kOCAnnotationAnnotationConfigs;
     [[OCAAnnotationManager sharedManager] addConfigsWithConfigDic:configs];
     return YES;
 }

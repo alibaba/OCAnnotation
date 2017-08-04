@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06188565B58234082ECB40D57CE64C1E /* OCABasePropertyAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = F6111468AF66290413187EDA12808B2D /* OCABasePropertyAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A0DDD64EDDD36FBC10264303262190B /* OCABaseMethodAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = E23D0CE61553EC8C483AD141CC4A683F /* OCABaseMethodAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F86808C01B263F3F012E5A85C90538E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4A3221994AB57A54DD8564FDD5FAB2E6 /* OCABaseClassAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A72A2E0FD833323F6A4C05E9AFA23 /* OCABaseClassAnnotation.m */; };
 		4D8A20BBE5961AAB579ED90FA6863C6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5166F6D283DB395C858919EA591F3506 /* OCAnnotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4121DBA35C14A66471E2AACC334F4C6 /* OCAnnotation-dummy.m */; };
 		548C6A4F1ED79417B7AB0EBD93249FDE /* Pods-OCAnnotation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A3D74A41D50A853D804EC34176FD5F /* Pods-OCAnnotation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65F1C43DBAD1A95D7CFF3ABBD2B1D4C4 /* Pods-OCAnnotation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E531093675AEBD688708C84A0695A4 /* Pods-OCAnnotation_Example-dummy.m */; };
+		67C4ADCAD2A7527C4C75296435109BA6 /* OCABaseAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C42FDECA99172855016B545B0EE0F8 /* OCABaseAnnotation.m */; };
+		8565523B926EF76C11EF7B17434FB5DC /* OCABaseMethodAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8274968DEF98314BA252B6EE152F88A2 /* OCABaseMethodAnnotation.m */; };
 		859886AE2C791B9E1BEA699BCEA54010 /* Pods-OCAnnotation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81739A9F41EA64E643ACDD114EF3E654 /* Pods-OCAnnotation_Tests-dummy.m */; };
 		8A4C5F7F816447B6D1F16F72375BACAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		97FE7BC1C7AEA7553A9D1BCB45E7888E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9EB8F9D81304CD71CF1A54BAEA953C17 /* OCAnnotation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5086CA17DF0538E31C7673F7DDDB3708 /* OCAnnotation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD3D817D85BD76E398BA5E6AB72CA2BD /* OCAnnotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 117D08422151A0B713D9EF72CD3D1115 /* OCAnnotation-dummy.m */; };
-		C0CFD2361F31AA0A0047B591 /* OCAAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CFD2291F31AA0A0047B591 /* OCAAnnotation.h */; };
-		C0CFD2371F31AA0A0047B591 /* OCAAnnotationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CFD22A1F31AA0A0047B591 /* OCAAnnotationDefines.h */; };
-		C0CFD2381F31AA0A0047B591 /* OCAAnnotationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CFD22B1F31AA0A0047B591 /* OCAAnnotationManager.h */; };
-		C0CFD2391F31AA0A0047B591 /* OCAAnnotationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFD22C1F31AA0A0047B591 /* OCAAnnotationManager.m */; };
-		C0CFD23A1F31AA0A0047B591 /* OCABaseAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CFD22D1F31AA0A0047B591 /* OCABaseAnnotation.h */; };
-		C0CFD23B1F31AA0A0047B591 /* OCABaseAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFD22E1F31AA0A0047B591 /* OCABaseAnnotation.m */; };
-		C0CFD23C1F31AA0A0047B591 /* OCABaseClassAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CFD22F1F31AA0A0047B591 /* OCABaseClassAnnotation.h */; };
-		C0CFD23D1F31AA0A0047B591 /* OCABaseClassAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFD2301F31AA0A0047B591 /* OCABaseClassAnnotation.m */; };
-		C0CFD23E1F31AA0A0047B591 /* OCABaseMethodAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CFD2311F31AA0A0047B591 /* OCABaseMethodAnnotation.h */; };
-		C0CFD23F1F31AA0A0047B591 /* OCABaseMethodAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFD2321F31AA0A0047B591 /* OCABaseMethodAnnotation.m */; };
-		C0CFD2401F31AA0A0047B591 /* OCABasePropertyAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CFD2331F31AA0A0047B591 /* OCABasePropertyAnnotation.h */; };
-		C0CFD2411F31AA0A0047B591 /* OCABasePropertyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFD2341F31AA0A0047B591 /* OCABasePropertyAnnotation.m */; };
+		AEAB9E51344FD5D0A190839AA23C0901 /* OCABaseClassAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = A28B9C1C482A09A0AE2033E9A95E5632 /* OCABaseClassAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B157EC8D5EBC33D82872A06FEABB3A56 /* OCAAnnotationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE657B9E6C689059168C903E0C8249CD /* OCAAnnotationManager.m */; };
+		B4DE587B84C6AF3D8439AA8944519191 /* OCAAnnotationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5395E5D4D8DB8AD8F45A53476FF1F6 /* OCAAnnotationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B92DF587E76F92A08D777EE149FF133F /* OCABasePropertyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE73D6AF6EA23DECA484032E6AEF711 /* OCABasePropertyAnnotation.m */; };
+		CDDCC3AA4563BCDCE5C3D26CEE714CFD /* OCABaseAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E78AA6BC5934D9A906B7BA7E5249EB /* OCABaseAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E07A372F0E12D07233B0949069FD42ED /* OCAnnotation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C341B6825B7426FD9EA598BAB0EC39E3 /* OCAnnotation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F15A3D75E25B850B746D6D864C374052 /* OCAAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B3F199B97A97AAD0413B2764C43877 /* OCAAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC8E4D06185276F7906FD402A679A631 /* OCAAnnotationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CAC006CE81B74D0E5ACDE8BC70C95E /* OCAAnnotationDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF0E6340C5A76F5A49F61A5F767C1818 /* Pods-OCAnnotation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B15FC9E6F62705051AAAFFF6B19EF5 /* Pods-OCAnnotation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -35,71 +35,71 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BCD5E773A10AAC5CF9EA863B0532C5C9;
+			remoteGlobalIDString = D06DD9518687D6BB98E847DF2540E147;
 			remoteInfo = OCAnnotation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		117D08422151A0B713D9EF72CD3D1115 /* OCAnnotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCAnnotation-dummy.m"; sourceTree = "<group>"; };
-		1571F435A71901601F8B47E89C7AFEC1 /* Pods-OCAnnotation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OCAnnotation_Tests.modulemap"; sourceTree = "<group>"; };
+		11CAC006CE81B74D0E5ACDE8BC70C95E /* OCAAnnotationDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCAAnnotationDefines.h; sourceTree = "<group>"; };
+		1571F435A71901601F8B47E89C7AFEC1 /* Pods-OCAnnotation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OCAnnotation_Tests.modulemap"; sourceTree = "<group>"; };
+		27D403959AC1D5535FE0810360DD4E5D /* OCAnnotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCAnnotation.xcconfig; sourceTree = "<group>"; };
 		28A3D74A41D50A853D804EC34176FD5F /* Pods-OCAnnotation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCAnnotation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		30B3F199B97A97AAD0413B2764C43877 /* OCAAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCAAnnotation.h; sourceTree = "<group>"; };
 		4136CD9BF23877ED5090049ED209CE54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A1D1B181410539558C2DDAEA9F0584F /* Pods-OCAnnotation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCAnnotation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5086CA17DF0538E31C7673F7DDDB3708 /* OCAnnotation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCAnnotation-umbrella.h"; sourceTree = "<group>"; };
-		54E7B2EA93A9122806C2F9535283E9E1 /* OCAnnotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCAnnotation-prefix.pch"; sourceTree = "<group>"; };
-		6062604BB8EBAFF5D92B226252159EB2 /* Pods_OCAnnotation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCAnnotation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5395E5D4D8DB8AD8F45A53476FF1F6 /* OCAAnnotationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCAAnnotationManager.h; sourceTree = "<group>"; };
+		5FE73D6AF6EA23DECA484032E6AEF711 /* OCABasePropertyAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCABasePropertyAnnotation.m; sourceTree = "<group>"; };
+		6062604BB8EBAFF5D92B226252159EB2 /* Pods_OCAnnotation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCAnnotation_Tests.framework; path = "Pods-OCAnnotation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		678730FA00E632CBD18944E60C45DDAB /* Pods-OCAnnotation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCAnnotation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		701F71FD7DE77C4C38CCC8081A83A059 /* Pods-OCAnnotation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCAnnotation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		70D62A82A0E1292D6B9F639C8BEA209A /* Pods-OCAnnotation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCAnnotation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7926EEFC0CA5AFA4EA60B59100E3AE71 /* OCAnnotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCAnnotation.xcconfig; sourceTree = "<group>"; };
 		81739A9F41EA64E643ACDD114EF3E654 /* Pods-OCAnnotation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCAnnotation_Tests-dummy.m"; sourceTree = "<group>"; };
+		8274968DEF98314BA252B6EE152F88A2 /* OCABaseMethodAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCABaseMethodAnnotation.m; sourceTree = "<group>"; };
 		82E531093675AEBD688708C84A0695A4 /* Pods-OCAnnotation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCAnnotation_Example-dummy.m"; sourceTree = "<group>"; };
-		8499B7D42C660A58002D647C9DAB777C /* Pods-OCAnnotation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OCAnnotation_Example.modulemap"; sourceTree = "<group>"; };
-		875C62F333D58C76CC59EAE861049EA5 /* OCAnnotation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCAnnotation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8499B7D42C660A58002D647C9DAB777C /* Pods-OCAnnotation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OCAnnotation_Example.modulemap"; sourceTree = "<group>"; };
+		85E78AA6BC5934D9A906B7BA7E5249EB /* OCABaseAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCABaseAnnotation.h; sourceTree = "<group>"; };
+		875C62F333D58C76CC59EAE861049EA5 /* OCAnnotation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCAnnotation.framework; path = OCAnnotation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9512029C6AFB796CDC61FF9A8FE68DD7 /* Pods-OCAnnotation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCAnnotation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96A6AB11CCE88891FF72D0DA0A603B37 /* Pods-OCAnnotation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCAnnotation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9B9A72A2E0FD833323F6A4C05E9AFA23 /* OCABaseClassAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCABaseClassAnnotation.m; sourceTree = "<group>"; };
+		A28B9C1C482A09A0AE2033E9A95E5632 /* OCABaseClassAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCABaseClassAnnotation.h; sourceTree = "<group>"; };
+		A611686493B05A84EFDCC4C0E7930DF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F1D55AA1C06C5C04FF0B97CC315D83 /* Pods-OCAnnotation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCAnnotation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BA4B37E4FE4915AF7092DB4F49E5C757 /* OCAnnotation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OCAnnotation.modulemap; sourceTree = "<group>"; };
-		C0CFD2291F31AA0A0047B591 /* OCAAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAAnnotation.h; sourceTree = "<group>"; };
-		C0CFD22A1F31AA0A0047B591 /* OCAAnnotationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAAnnotationDefines.h; sourceTree = "<group>"; };
-		C0CFD22B1F31AA0A0047B591 /* OCAAnnotationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAAnnotationManager.h; sourceTree = "<group>"; };
-		C0CFD22C1F31AA0A0047B591 /* OCAAnnotationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAAnnotationManager.m; sourceTree = "<group>"; };
-		C0CFD22D1F31AA0A0047B591 /* OCABaseAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCABaseAnnotation.h; sourceTree = "<group>"; };
-		C0CFD22E1F31AA0A0047B591 /* OCABaseAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCABaseAnnotation.m; sourceTree = "<group>"; };
-		C0CFD22F1F31AA0A0047B591 /* OCABaseClassAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCABaseClassAnnotation.h; sourceTree = "<group>"; };
-		C0CFD2301F31AA0A0047B591 /* OCABaseClassAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCABaseClassAnnotation.m; sourceTree = "<group>"; };
-		C0CFD2311F31AA0A0047B591 /* OCABaseMethodAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCABaseMethodAnnotation.h; sourceTree = "<group>"; };
-		C0CFD2321F31AA0A0047B591 /* OCABaseMethodAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCABaseMethodAnnotation.m; sourceTree = "<group>"; };
-		C0CFD2331F31AA0A0047B591 /* OCABasePropertyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCABasePropertyAnnotation.h; sourceTree = "<group>"; };
-		C0CFD2341F31AA0A0047B591 /* OCABasePropertyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCABasePropertyAnnotation.m; sourceTree = "<group>"; };
+		AF81129D6846428C283F11CCD1F88555 /* OCAnnotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCAnnotation-prefix.pch"; sourceTree = "<group>"; };
+		C341B6825B7426FD9EA598BAB0EC39E3 /* OCAnnotation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCAnnotation-umbrella.h"; sourceTree = "<group>"; };
 		C41EA19B721704361FDE2B9BDA5903B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5B15FC9E6F62705051AAAFFF6B19EF5 /* Pods-OCAnnotation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCAnnotation_Example-umbrella.h"; sourceTree = "<group>"; };
 		C642DD2ECD890EE4AEE8DA5CB8575802 /* Pods-OCAnnotation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCAnnotation_Tests-resources.sh"; sourceTree = "<group>"; };
 		C711E01B09853EF7EA69F319DE2490B2 /* Pods-OCAnnotation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCAnnotation_Example-resources.sh"; sourceTree = "<group>"; };
+		CE657B9E6C689059168C903E0C8249CD /* OCAAnnotationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCAAnnotationManager.m; sourceTree = "<group>"; };
 		D2BC20F47187E46171A5948A3A359209 /* Pods-OCAnnotation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCAnnotation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DB1FF0DE26D96F8BB12DA1C52E8B1F08 /* Pods_OCAnnotation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCAnnotation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA99E0652BF87FDF2F83F591EABDC65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1FF0DE26D96F8BB12DA1C52E8B1F08 /* Pods_OCAnnotation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCAnnotation_Example.framework; path = "Pods-OCAnnotation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAE83BB38BC3EEA2F38D57CCC2FF726 /* OCAnnotation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OCAnnotation.modulemap; sourceTree = "<group>"; };
+		E23D0CE61553EC8C483AD141CC4A683F /* OCABaseMethodAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCABaseMethodAnnotation.h; sourceTree = "<group>"; };
+		E4121DBA35C14A66471E2AACC334F4C6 /* OCAnnotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCAnnotation-dummy.m"; sourceTree = "<group>"; };
 		E4445715A5F6EA75ED6F7838402CF504 /* Pods-OCAnnotation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCAnnotation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F39C9A8A7FD74F1E6C5CDB8A5990FF68 /* Pods-OCAnnotation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCAnnotation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F6111468AF66290413187EDA12808B2D /* OCABasePropertyAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCABasePropertyAnnotation.h; sourceTree = "<group>"; };
+		F9C42FDECA99172855016B545B0EE0F8 /* OCABaseAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCABaseAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2484C385B5E209CEEAAD31B0764BD92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F86808C01B263F3F012E5A85C90538E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29739F102E2A3554FD61E74A1E7919A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D8A20BBE5961AAB579ED90FA6863C6A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D1E8E65D474C7D749986A1997C48B43 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97FE7BC1C7AEA7553A9D1BCB45E7888E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,36 +123,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		10F1210D99EA4FF95BF2C2B719D7B2F8 /* Development Pods */ = {
+		10DBFB01150DC04415A70011B04C5A61 /* OCAnnotation */ = {
 			isa = PBXGroup;
 			children = (
-				4338D4E3D5BF0A28329D8F0BAAA5B611 /* OCAnnotation */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		27AC31803041504CC23D91712B4A7C81 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DFA99E0652BF87FDF2F83F591EABDC65 /* Info.plist */,
-				BA4B37E4FE4915AF7092DB4F49E5C757 /* OCAnnotation.modulemap */,
-				7926EEFC0CA5AFA4EA60B59100E3AE71 /* OCAnnotation.xcconfig */,
-				117D08422151A0B713D9EF72CD3D1115 /* OCAnnotation-dummy.m */,
-				54E7B2EA93A9122806C2F9535283E9E1 /* OCAnnotation-prefix.pch */,
-				5086CA17DF0538E31C7673F7DDDB3708 /* OCAnnotation-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OCAnnotation";
-			sourceTree = "<group>";
-		};
-		4338D4E3D5BF0A28329D8F0BAAA5B611 /* OCAnnotation */ = {
-			isa = PBXGroup;
-			children = (
-				C0CFD2261F31AA0A0047B591 /* Sources */,
-				27AC31803041504CC23D91712B4A7C81 /* Support Files */,
+				30B3F199B97A97AAD0413B2764C43877 /* OCAAnnotation.h */,
+				11CAC006CE81B74D0E5ACDE8BC70C95E /* OCAAnnotationDefines.h */,
+				5E5395E5D4D8DB8AD8F45A53476FF1F6 /* OCAAnnotationManager.h */,
+				CE657B9E6C689059168C903E0C8249CD /* OCAAnnotationManager.m */,
+				85E78AA6BC5934D9A906B7BA7E5249EB /* OCABaseAnnotation.h */,
+				F9C42FDECA99172855016B545B0EE0F8 /* OCABaseAnnotation.m */,
+				A28B9C1C482A09A0AE2033E9A95E5632 /* OCABaseClassAnnotation.h */,
+				9B9A72A2E0FD833323F6A4C05E9AFA23 /* OCABaseClassAnnotation.m */,
+				E23D0CE61553EC8C483AD141CC4A683F /* OCABaseMethodAnnotation.h */,
+				8274968DEF98314BA252B6EE152F88A2 /* OCABaseMethodAnnotation.m */,
+				F6111468AF66290413187EDA12808B2D /* OCABasePropertyAnnotation.h */,
+				5FE73D6AF6EA23DECA484032E6AEF711 /* OCABasePropertyAnnotation.m */,
 			);
 			name = OCAnnotation;
-			path = ../..;
+			path = OCAnnotation;
+			sourceTree = "<group>";
+		};
+		36235832D921191816562A9FDD1270A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A611686493B05A84EFDCC4C0E7930DF7 /* Info.plist */,
+				DEAE83BB38BC3EEA2F38D57CCC2FF726 /* OCAnnotation.modulemap */,
+				27D403959AC1D5535FE0810360DD4E5D /* OCAnnotation.xcconfig */,
+				E4121DBA35C14A66471E2AACC334F4C6 /* OCAnnotation-dummy.m */,
+				AF81129D6846428C283F11CCD1F88555 /* OCAnnotation-prefix.pch */,
+				C341B6825B7426FD9EA598BAB0EC39E3 /* OCAnnotation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "OCAnnotation/Example/Pods/Target Support Files/OCAnnotation";
 			sourceTree = "<group>";
 		};
 		435A841C7F8E9AD978024628E6191EC0 /* Pods-OCAnnotation_Tests */ = {
@@ -173,11 +175,30 @@
 			path = "Target Support Files/Pods-OCAnnotation_Tests";
 			sourceTree = "<group>";
 		};
+		45603844949A65C90E6C384DEB93AA77 /* OCAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				583C0AE4BC618BCA29EAFA5C50266816 /* OCAnnotation */,
+				36235832D921191816562A9FDD1270A1 /* Support Files */,
+			);
+			name = OCAnnotation;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		583C0AE4BC618BCA29EAFA5C50266816 /* OCAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				BE4DDF12B39B7C3124553D7B8CB8D883 /* Sources */,
+			);
+			name = OCAnnotation;
+			path = OCAnnotation;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				10F1210D99EA4FF95BF2C2B719D7B2F8 /* Development Pods */,
+				B90F8938691499A66C11834439A556D7 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B6D6E029F6EA6BC51B6D88A677A20CE3 /* Products */,
 				0F95C4CEA30C186CC1EC7F55A3C45780 /* Targets Support Files */,
@@ -212,6 +233,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B90F8938691499A66C11834439A556D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45603844949A65C90E6C384DEB93AA77 /* OCAnnotation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,39 +249,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C0CFD2261F31AA0A0047B591 /* Sources */ = {
+		BE4DDF12B39B7C3124553D7B8CB8D883 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C0CFD2271F31AA0A0047B591 /* OCAnnotation */,
-				C0CFD2351F31AA0A0047B591 /* SwiftAnnotation */,
+				10DBFB01150DC04415A70011B04C5A61 /* OCAnnotation */,
 			);
+			name = Sources;
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		C0CFD2271F31AA0A0047B591 /* OCAnnotation */ = {
-			isa = PBXGroup;
-			children = (
-				C0CFD2291F31AA0A0047B591 /* OCAAnnotation.h */,
-				C0CFD22A1F31AA0A0047B591 /* OCAAnnotationDefines.h */,
-				C0CFD22B1F31AA0A0047B591 /* OCAAnnotationManager.h */,
-				C0CFD22C1F31AA0A0047B591 /* OCAAnnotationManager.m */,
-				C0CFD22D1F31AA0A0047B591 /* OCABaseAnnotation.h */,
-				C0CFD22E1F31AA0A0047B591 /* OCABaseAnnotation.m */,
-				C0CFD22F1F31AA0A0047B591 /* OCABaseClassAnnotation.h */,
-				C0CFD2301F31AA0A0047B591 /* OCABaseClassAnnotation.m */,
-				C0CFD2311F31AA0A0047B591 /* OCABaseMethodAnnotation.h */,
-				C0CFD2321F31AA0A0047B591 /* OCABaseMethodAnnotation.m */,
-				C0CFD2331F31AA0A0047B591 /* OCABasePropertyAnnotation.h */,
-				C0CFD2341F31AA0A0047B591 /* OCABasePropertyAnnotation.m */,
-			);
-			path = OCAnnotation;
-			sourceTree = "<group>";
-		};
-		C0CFD2351F31AA0A0047B591 /* SwiftAnnotation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SwiftAnnotation;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -282,31 +285,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FFD96638A976AF07CB92A139AFF7F61 /* Headers */ = {
+		A5C632340FBE7E076E92C81ED5543F7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0CFD2371F31AA0A0047B591 /* OCAAnnotationDefines.h in Headers */,
-				C0CFD23C1F31AA0A0047B591 /* OCABaseClassAnnotation.h in Headers */,
-				C0CFD2361F31AA0A0047B591 /* OCAAnnotation.h in Headers */,
-				C0CFD2401F31AA0A0047B591 /* OCABasePropertyAnnotation.h in Headers */,
-				C0CFD2381F31AA0A0047B591 /* OCAAnnotationManager.h in Headers */,
-				C0CFD23E1F31AA0A0047B591 /* OCABaseMethodAnnotation.h in Headers */,
-				9EB8F9D81304CD71CF1A54BAEA953C17 /* OCAnnotation-umbrella.h in Headers */,
-				C0CFD23A1F31AA0A0047B591 /* OCABaseAnnotation.h in Headers */,
+				F15A3D75E25B850B746D6D864C374052 /* OCAAnnotation.h in Headers */,
+				FC8E4D06185276F7906FD402A679A631 /* OCAAnnotationDefines.h in Headers */,
+				B4DE587B84C6AF3D8439AA8944519191 /* OCAAnnotationManager.h in Headers */,
+				CDDCC3AA4563BCDCE5C3D26CEE714CFD /* OCABaseAnnotation.h in Headers */,
+				AEAB9E51344FD5D0A190839AA23C0901 /* OCABaseClassAnnotation.h in Headers */,
+				2A0DDD64EDDD36FBC10264303262190B /* OCABaseMethodAnnotation.h in Headers */,
+				06188565B58234082ECB40D57CE64C1E /* OCABasePropertyAnnotation.h in Headers */,
+				E07A372F0E12D07233B0949069FD42ED /* OCAnnotation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BCD5E773A10AAC5CF9EA863B0532C5C9 /* OCAnnotation */ = {
+		D06DD9518687D6BB98E847DF2540E147 /* OCAnnotation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84C9A8062C01EE7EE06BC72D427E68E9 /* Build configuration list for PBXNativeTarget "OCAnnotation" */;
+			buildConfigurationList = F18EA365EB61375F2A465F506C7D1750 /* Build configuration list for PBXNativeTarget "OCAnnotation" */;
 			buildPhases = (
-				932401CCDC0E1AA1A6B14BF0CA2C4D33 /* Sources */,
-				5D1E8E65D474C7D749986A1997C48B43 /* Frameworks */,
-				5FFD96638A976AF07CB92A139AFF7F61 /* Headers */,
+				261C88070EDC5EE3626D29F693FCF5B4 /* Sources */,
+				2484C385B5E209CEEAAD31B0764BD92B /* Frameworks */,
+				A5C632340FBE7E076E92C81ED5543F7C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -373,7 +376,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCD5E773A10AAC5CF9EA863B0532C5C9 /* OCAnnotation */,
+				D06DD9518687D6BB98E847DF2540E147 /* OCAnnotation */,
 				D3D9449639DBF4AD2AD099BB60DF6BA8 /* Pods-OCAnnotation_Example */,
 				F853C6D95F7FBB45A3B96BDE9F22066B /* Pods-OCAnnotation_Tests */,
 			);
@@ -381,24 +384,24 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		261C88070EDC5EE3626D29F693FCF5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B157EC8D5EBC33D82872A06FEABB3A56 /* OCAAnnotationManager.m in Sources */,
+				67C4ADCAD2A7527C4C75296435109BA6 /* OCABaseAnnotation.m in Sources */,
+				4A3221994AB57A54DD8564FDD5FAB2E6 /* OCABaseClassAnnotation.m in Sources */,
+				8565523B926EF76C11EF7B17434FB5DC /* OCABaseMethodAnnotation.m in Sources */,
+				B92DF587E76F92A08D777EE149FF133F /* OCABasePropertyAnnotation.m in Sources */,
+				5166F6D283DB395C858919EA591F3506 /* OCAnnotation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		700FE004DC2606C4820F4AB378EF4560 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				859886AE2C791B9E1BEA699BCEA54010 /* Pods-OCAnnotation_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		932401CCDC0E1AA1A6B14BF0CA2C4D33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD3D817D85BD76E398BA5E6AB72CA2BD /* OCAnnotation-dummy.m in Sources */,
-				C0CFD23F1F31AA0A0047B591 /* OCABaseMethodAnnotation.m in Sources */,
-				C0CFD23D1F31AA0A0047B591 /* OCABaseClassAnnotation.m in Sources */,
-				C0CFD2411F31AA0A0047B591 /* OCABasePropertyAnnotation.m in Sources */,
-				C0CFD2391F31AA0A0047B591 /* OCAAnnotationManager.m in Sources */,
-				C0CFD23B1F31AA0A0047B591 /* OCABaseAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,44 +419,12 @@
 		2D4C55395C60DE8BB436B2B13BF8EE52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OCAnnotation;
-			target = BCD5E773A10AAC5CF9EA863B0532C5C9 /* OCAnnotation */;
+			target = D06DD9518687D6BB98E847DF2540E147 /* OCAnnotation */;
 			targetProxy = DE04D4C8D74CD2A0E2C00DC3432FB68C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		28222DA863514EE9751ED319098EDF7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7926EEFC0CA5AFA4EA60B59100E3AE71 /* OCAnnotation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OCAnnotation/OCAnnotation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCAnnotation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OCAnnotation/OCAnnotation.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = OCAnnotation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -582,6 +553,38 @@
 			};
 			name = Release;
 		};
+		97D8EB2E8246C989E75137A1D7BF3FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D403959AC1D5535FE0810360DD4E5D /* OCAnnotation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCAnnotation/OCAnnotation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCAnnotation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCAnnotation/OCAnnotation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OCAnnotation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AAB9539DD151D21B26914A9A083AA4A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96A6AB11CCE88891FF72D0DA0A603B37 /* Pods-OCAnnotation_Example.debug.xcconfig */;
@@ -690,9 +693,9 @@
 			};
 			name = Release;
 		};
-		F3EC180C3B191333F39E8470C7DF69A6 /* Release */ = {
+		F90079F442452F3713CB3C750671A45F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7926EEFC0CA5AFA4EA60B59100E3AE71 /* OCAnnotation.xcconfig */;
+			baseConfigurationReference = 27D403959AC1D5535FE0810360DD4E5D /* OCAnnotation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -752,11 +755,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84C9A8062C01EE7EE06BC72D427E68E9 /* Build configuration list for PBXNativeTarget "OCAnnotation" */ = {
+		F18EA365EB61375F2A465F506C7D1750 /* Build configuration list for PBXNativeTarget "OCAnnotation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28222DA863514EE9751ED319098EDF7F /* Debug */,
-				F3EC180C3B191333F39E8470C7DF69A6 /* Release */,
+				97D8EB2E8246C989E75137A1D7BF3FDA /* Debug */,
+				F90079F442452F3713CB3C750671A45F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

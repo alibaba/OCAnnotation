@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "OCAAnnotation.h"
+#import "OCAAnnotationDefines.h"
+#import "OCAAnnotationManager.h"
+#import "OCABaseAnnotation.h"
+#import "OCABaseClassAnnotation.h"
+#import "OCABaseMethodAnnotation.h"
+#import "OCABasePropertyAnnotation.h"
 
 FOUNDATION_EXPORT double OCAnnotationVersionNumber;
 FOUNDATION_EXPORT const unsigned char OCAnnotationVersionString[];

@@ -1,16 +1,16 @@
 PODS:
-  - OCAnnotation (0.1.0)
+  - OCAnnotation (0.0.8)
 
 DEPENDENCIES:
-  - OCAnnotation (from `../`)
+  - OCAnnotation (from `../../`)
 
 EXTERNAL SOURCES:
   OCAnnotation:
-    :path: "../"
+    :path: "../../"
 
 SPEC CHECKSUMS:
-  OCAnnotation: 0331b2d90bc688791213e868d6250e14c21dd3ef
+  OCAnnotation: 4e09866e8c9df3d970e2ba42c0d2c62ed519a4fe
 
-PODFILE CHECKSUM: cbbd12e45625dd69380af391e8f3bac9d1c05c58
+PODFILE CHECKSUM: af15286c83ab7e619031c9a3536003bbe332296c
 
 COCOAPODS: 1.2.1
