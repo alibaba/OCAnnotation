@@ -1,4 +1,12 @@
-source "https://rubygems.org"
+source "https://rubygems.org" do
+  # Gems here
+  # gem "bundler", "~> 1.15"
+  # gem "rake", "~> 10.0"
+  # gem "xcodeproj"
+  # gem "psych"
+  # gem "activesupport"
+  # gem "colored"
+  # gem "json"
+  # gem "fileutils"
+end
 
-# Specify your gem's dependencies in ocannotation.gemspec
-gemspec

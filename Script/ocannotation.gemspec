@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   if spec.respond_to?(:metadata)
     spec.metadata["allowed_push_host"] = "'http://xxx.com'"
   else
-    raise "RubyGems 2.0 or newer is required to protect against " \
+    raise "RubyGems 2.0 or newer is required to protect agvim ainst " \
       "public gem pushes."
   end
 
@@ -37,5 +37,15 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "colored"
   spec.add_development_dependency "json"
   spec.add_development_dependency "fileutils"
+
+  
+  spec.add_runtime_dependency "bundler", "~> 1.15"
+  spec.add_runtime_dependency "rake", "~> 10.0"
+  spec.add_runtime_dependency "xcodeproj"
+  spec.add_runtime_dependency "psych"
+  spec.add_runtime_dependency "activesupport"
+  spec.add_runtime_dependency "colored"
+  spec.add_runtime_dependency "json"
+  spec.add_runtime_dependency "fileutils"
 
 end
