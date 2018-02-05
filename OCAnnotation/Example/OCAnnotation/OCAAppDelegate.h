@@ -8,8 +8,10 @@
 
 @import UIKit;
 
+#pragma annotation(type:"remoteLog",remoteLogId:"12345",extraInfo:"some extra info")
 @interface OCAAppDelegate : UIResponder <UIApplicationDelegate>
 
+#pragma annotation(type:"remoteLog",remoteLogId:"22222")
 @property (strong, nonatomic) UIWindow *window;
 
 @end

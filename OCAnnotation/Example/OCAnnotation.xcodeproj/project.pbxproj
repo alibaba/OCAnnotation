@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		EEAE9B4F9B40C19F4F0A2486 /* Annotation */ = {
+		AD3686D4D2F1D1DD6277326D /* Annotation */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 06F85727FC5268C145566DE1 /* Build configuration list for PBXAggregateTarget "Annotation" */;
+			buildConfigurationList = 3D8E7CEAF48F0FB6668C2A42 /* Build configuration list for PBXAggregateTarget "Annotation" */;
 			buildPhases = (
-				DDBF11917206E30F5D12FE8C /* Annotation Script */,
+				D8B39ABC70A275BC060AD2B1 /* Annotation Script */,
 			);
 			dependencies = (
 			);
@@ -44,6 +44,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		49BE39286454B29DF381BFA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3686D4D2F1D1DD6277326D;
+			remoteInfo = Annotation;
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -55,13 +62,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EEAE9B4F9B40C19F4F0A2486;
+			remoteGlobalIDString = AD3686D4D2F1D1DD6277326D;
 			remoteInfo = Annotation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06C081E99A3B3065153BCC34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C5A530520283BCA0074ACC9 /* OCAnnotationAnnotationConfig.gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAnnotationAnnotationConfig.gen.h; sourceTree = SOURCE_ROOT; };
 		6003F58A195388D20070C39A /* OCAnnotation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCAnnotation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,7 +100,6 @@
 		C0790BBF322481B00001D707 /* Pods-OCAnnotation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCAnnotation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCAnnotation_Example/Pods-OCAnnotation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C0CFD2421F31AA460047B591 /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
 		C0CFD2441F31AA530047B591 /* NOTICE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
-		C0CFD2561F344D7D0047B591 /* OCAnnotationAnnotationConfig.gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAnnotationAnnotationConfig.gen.h; sourceTree = "<group>"; };
 		F878877758B2F500F5684923 /* Pods-OCAnnotation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCAnnotation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCAnnotation_Example/Pods-OCAnnotation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FC60BB43BFEAAC3AA0830837 /* Pods-OCAnnotation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCAnnotation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCAnnotation_Tests/Pods-OCAnnotation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,7 +178,7 @@
 		6003F593195388D20070C39A /* Example for OCAnnotation */ = {
 			isa = PBXGroup;
 			children = (
-				C0CFD2561F344D7D0047B591 /* OCAnnotationAnnotationConfig.gen.h */,
+				5C5A530520283BCA0074ACC9 /* OCAnnotationAnnotationConfig.gen.h */,
 				C06A79691F3077C9002A3657 /* OCADemoAnnotation.h */,
 				C06A79681F3077C9002A3657 /* OCADemoAnnotation.m */,
 				6003F59C195388D20070C39A /* OCAAppDelegate.h */,
@@ -235,17 +242,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "OCAnnotation_Example" */;
 			buildPhases = (
-				3AB936A25D0C88593F5303DE /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2AB21CFE530130FDD8841FE7 /* [CP] Embed Pods Frameworks */,
-				A77689E66CED732528844349 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				63C756F0C7B86D94C3C516E6 /* PBXTargetDependency */,
+				B88191989AD1A081EC60BA73 /* PBXTargetDependency */,
 			);
 			name = OCAnnotation_Example;
 			productName = OCAnnotation;
@@ -303,7 +308,7 @@
 			targets = (
 				6003F589195388D20070C39A /* OCAnnotation_Example */,
 				6003F5AD195388D20070C39A /* OCAnnotation_Tests */,
-				EEAE9B4F9B40C19F4F0A2486 /* Annotation */,
+				AD3686D4D2F1D1DD6277326D /* Annotation */,
 			);
 		};
 /* End PBXProject section */
@@ -333,36 +338,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2AB21CFE530130FDD8841FE7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCAnnotation_Example/Pods-OCAnnotation_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3AB936A25D0C88593F5303DE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		46D7A0A6B953AB37C719A8EB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,22 +368,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCAnnotation_Tests/Pods-OCAnnotation_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A77689E66CED732528844349 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCAnnotation_Example/Pods-OCAnnotation_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DDBF11917206E30F5D12FE8C /* Annotation Script */ = {
+		D8B39ABC70A275BC060AD2B1 /* Annotation Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,8 +430,14 @@
 		63C756F0C7B86D94C3C516E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Annotation;
-			target = EEAE9B4F9B40C19F4F0A2486 /* Annotation */;
+			target = AD3686D4D2F1D1DD6277326D /* Annotation */;
 			targetProxy = 7B172B68D2C36D6AED42E44E /* PBXContainerItemProxy */;
+		};
+		B88191989AD1A081EC60BA73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Annotation;
+			target = AD3686D4D2F1D1DD6277326D /* Annotation */;
+			targetProxy = 49BE39286454B29DF381BFA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -503,15 +469,19 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5EC57D00D685BCB2F50FEBF0 /* Release */ = {
+		100D7CCFF283874BFF2A1570 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Annotation;
+			};
+			name = Debug;
+		};
+		49E92C9020DF582B281FE446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = Annotation;
 			};
 			name = Release;
 		};
@@ -662,26 +632,14 @@
 			};
 			name = Release;
 		};
-		B16F2D5369891BAE994F25AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06F85727FC5268C145566DE1 /* Build configuration list for PBXAggregateTarget "Annotation" */ = {
+		3D8E7CEAF48F0FB6668C2A42 /* Build configuration list for PBXAggregateTarget "Annotation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EC57D00D685BCB2F50FEBF0 /* Release */,
-				B16F2D5369891BAE994F25AF /* Debug */,
+				49E92C9020DF582B281FE446 /* Release */,
+				100D7CCFF283874BFF2A1570 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

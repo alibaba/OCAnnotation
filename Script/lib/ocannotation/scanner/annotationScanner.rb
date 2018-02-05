@@ -149,7 +149,9 @@ module AFWAnnotation
 			end
 
 			if file.path.end_with?('.h') || file.path.end_with?('.m')
-			 	path = Dir.pwd + file.hierarchy_path
+
+			 	path = file.real_path
+
 				unless File.exist?(path)
 					puts "invalid path:#{path}"
 					return
